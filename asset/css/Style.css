@@ -1,0 +1,91 @@
+/* BODY */
+body{
+    margin: 0;
+    background-color: rgb(238, 244, 244);   
+}
+body h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+/* NAV BAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 40px;
+    align-items: center;
+}
+nav .left img{
+    width: 60px;
+    height: 50px;
+    margin-right: 40px;
+}
+nav .left ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav .left ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+nav .left ul li .home{
+    list-style-type: none;
+    text-decoration: solid;
+    color: black;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+nav .left ul li .my{
+    list-style-type: none;
+    text-decoration: solid;
+    color: black;
+}
+nav .right a{
+    text-decoration: none;
+    background-color: rgb(0, 0, 28);
+    color: white;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* FORM */
+form{
+    width: 350px;
+    margin: 50px auto;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+    box-shadow: 0 3px 10px black;
+}
+
+form label{
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+form div button{
+    background-color: rgb(0, 0, 28);
+    font-weight: bold;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 235px;
+}
+
+form div {
+    padding: 5px;
+}

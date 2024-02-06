@@ -1,0 +1,4 @@
+Note :
+- Tag element yang akan di pakai ?
+- Block element dan inline element ?
+- semantic dan non semantic

@@ -1,0 +1,111 @@
+/* BODY */
+body{
+    margin: 0;
+    background-color: rgb(238, 244, 244); 
+}
+
+.kamu{
+    display: flex;
+    border: 0px black solid;
+    background-color: rgb(236, 234, 234);
+    width: 850px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: justify; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 20px black;
+
+}
+
+.kiri{
+    width: 70%;
+    padding-right: 40px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.kanan{
+    width: 30%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 40px;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.kanan img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tombol{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0, 0, 28);
+    font-weight: bold;
+    padding: 8px 30px;
+    color: white;
+    border-radius: 20px;
+}
+.icon{
+    padding-left: 0%; 
+    padding-right: 20%; 
+    padding-top: 20px; 
+    font-size: 33px;
+    color: black; 
+    border-style: none;
+}
+/* NAV BAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 40px;
+    align-items: center;
+}
+nav .left img{
+    width: 60px;
+    height: 50px;
+    margin-right: 40px;
+}
+nav .left ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav .left ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    
+}
+nav .left ul li .home{
+    list-style-type: none;
+    text-decoration: solid;
+    color: black;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+nav .left ul li .my{
+    list-style-type: none;
+    text-decoration: solid;
+    color: black;
+}
+nav .right a{
+    text-decoration: none;
+    background-color: rgb(0, 0, 28);
+    color: white;
+    padding: 8px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+}
