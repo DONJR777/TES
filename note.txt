@@ -2,3 +2,7 @@ Note :
 - Tag element yang akan di pakai ?
 - Block element dan inline element ?
 - semantic dan non semantic
+
+//
+top adalah posisi element di bagian atas. 
+sedangkan margin top adalah space kosong yang berada di bagian atas element.
